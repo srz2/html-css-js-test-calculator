@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <div class="display">
+                <p id="screen"></p>
+            </div>
+            <div class="inputs">
+                <button class="input-item input-number">7</button>
+                <button class="input-item input-number">8</button>
+                <button class="input-item input-number">9</button>
+                <button class="input-item input-operator">+</button>
+                <button class="input-item input-number">4</button>
+                <button class="input-item input-number">5</button>
+                <button class="input-item input-number">6</button>
+                <button class="input-item input-operator">-</button>
+                <button class="input-item input-number">1</button>
+                <button class="input-item input-number">2</button>
+                <button class="input-item input-number">3</button>
+                <button class="input-item input-operator">x</button>
+                <button class="input-item input-number">.</button>
+                <button onclick="allClear()" class="input-item input-number">AC</button>
+                <button onclick="clear()" class="input-item input-number">C</button>
+                <button class="input-item input-operator">÷</button>
+                <button onclick="calculate()" class="input-item input-operator grid-span-all">=</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
